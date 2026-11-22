@@ -17,15 +17,17 @@
 2. Откройте **Профили** и вставьте ссылку на подписку, полученную от администратора.
 3. Выберите добавленный профиль и нужный маршрут.
 
-## Android · тестовая версия 0.1.0-beta.1
+## Android · тестовая версия 0.1.1-beta.1
 
-- **[Скачать MyVPN для Android (APK)](https://github.com/rzarikov2007-creator/myvpn-releases/releases/download/android-v0.1.0-beta.1/MyVPN-android-2-arm64-v8a.apk)**
-- [Описание Android-релиза и ограничения](https://github.com/rzarikov2007-creator/myvpn-releases/releases/tag/android-v0.1.0-beta.1)
-- [Исходники Android-клиента и ядер](https://github.com/rzarikov2007-creator/myvpn-releases/releases/download/android-v0.1.0-beta.1/MyVPN-android-0.1.0-beta.1-source.zip)
-- [SHA-256 файлов Android](https://github.com/rzarikov2007-creator/myvpn-releases/releases/download/android-v0.1.0-beta.1/SHA256SUMS.txt)
+- **[Скачать MyVPN для Android (APK)](https://github.com/rzarikov2007-creator/myvpn-releases/releases/download/android-v0.1.1-beta.1/MyVPN-android-4-arm64-v8a.apk)**
+- [Описание Android-релиза и ограничения](https://github.com/rzarikov2007-creator/myvpn-releases/releases/tag/android-v0.1.1-beta.1)
+- [Исходники Android-клиента и ядер](https://github.com/rzarikov2007-creator/myvpn-releases/releases/download/android-v0.1.1-beta.1/MyVPN-android-0.1.1-beta.1-source.zip)
+- [SHA-256 файлов Android](https://github.com/rzarikov2007-creator/myvpn-releases/releases/download/android-v0.1.1-beta.1/SHA256SUMS.txt)
 
-Android 8+ и процессор ARM64. Установите APK, откройте MyVPN и вставьте свою HTTPS-ссылку подписки. Для OpenFlux выберите «OpenFlux · Доски» и добавьте гостевую ссылку на свою свободную Доску с правом редактирования. Для другого устройства используйте отдельную подписку и отдельную Доску. Личные ссылки в сборку не включены.
+Android 8+ и процессор ARM64. Новый дизайн со светлой и тёмной темами, векторный логотип и отдельные Доски F1/F2. Выбор темы: **Настройки → Внешний вид**.
 
-Обновления приложения проверяются в **Настройки → Обновление приложения**. Загрузка выполняется по нажатию, установка подтверждается Android. Обновление подписки выполняется отдельной кнопкой. Публичные версии сохраняют данные при обновлении. Переход с прежней отладочной USB-сборки требует переустановки из-за другой подписи. Перед удалением сохраните свои ссылки и настройки.
+Установите APK или обновитесь из публичной версии через **Настройки → Обновление приложения**. Установку подтверждает Android. После установки нажмите **«Обновить подписку»** на главной, чтобы получить актуальные маршруты. Новому пользователю нужна своя HTTPS-ссылка подписки. Для OpenFlux F1/F2 используйте разные свободные Доски с гостевым доступом на редактирование. Личные ссылки в сборку не включены.
 
-Это первый тестовый Android-выпуск. Обычные маршруты и OpenFlux TCP проверены на Redmi Note 13 Android 13. OpenFlux UDP/IPv6 пока заблокированы. Чистая установка на другом телефоне и полный цикл перехода между публичными версиями требуют дополнительной проверки.
+Публичные версии подписаны одним ключом и сохраняют данные при обычном обновлении. Переход с отладочной USB-сборки требует переустановки из-за другой подписи. Перед удалением сохраните свои ссылки и настройки.
+
+Тестовый выпуск опубликован до расширенной приёмки. Проверки отказов сети, Kill Switch, раздельного туннелирования и полного цикла обновления продолжатся следующим этапом. OpenFlux UDP/IPv6 пока заблокированы. [Предыдущий Android-релиз](https://github.com/rzarikov2007-creator/myvpn-releases/releases/tag/android-v0.1.0-beta.1) остаётся доступен.
